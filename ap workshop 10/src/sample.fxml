@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.effect.Glow?>
+<?import javafx.scene.effect.InnerShadow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.FlowPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane blendMode="DARKEN" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" opacity="0.84" prefHeight="426.0" prefWidth="289.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+    <children>
+        <TextArea fx:id="textArea" layoutX="7.0" layoutY="7.0" opacity="0.7" prefHeight="82.0" prefWidth="272.0">
+            <font>
+                <Font name="Arial Narrow" size="30.0" />
+            </font></TextArea>
+        <FlowPane hgap="10.0" layoutX="26.0" layoutY="117.0" prefHeight="294.0" prefWidth="234.0" vgap="10.0">
+            <children>
+                <Button mnemonicParsing="false" onAction="#pressPi" prefHeight="50.0" prefWidth="50.0" style="-fx-background-color: gray;" text="π">
+                    <font>
+                        <Font name="Domine" size="24.0" />
+                    </font>
+                    <effect>
+                        <Glow level="0.08">
+                            <input>
+                                <InnerShadow />
+                            </input>
+                        </Glow>
+                    </effect>
+                </Button>
+                <Button mnemonicParsing="false" onAction="#pressEulerNumber" prefHeight="50.0" prefWidth="50.0" style="-fx-background-color: gray;" text="e">
+                    <effect>
+                        <Glow level="0.08">
+                            <input>
+                                <InnerShadow />
+                            </input>
+                        </Glow>
+                    </effect>
+                    <font>
+                        <Font name="Domine" size="26.0" />
+                    </font>
+                </Button>
+                <Button mnemonicParsing="false" onAction="#radical" prefHeight="50.0" prefWidth="50.0" style="-fx-background-color: gray;" text="√">
+                    <font>
+                        <Font name="Cyberglyphics 2.0 Regular" size="24.0" />
+                    </font>
+                    <effect>
+                        <Glow level="0.08">
+                            <input>
+                                <InnerShadow />
+                            </input>
+                        </Glow>
+                    </effect>
+                </Button>
+                <Button mnemonicParsing="false" onAction="#pressSum" prefHeight="50.0" prefWidth="50.0" style="-fx-background-color: gray;" text="+">
+                    <font>
+                        <Font name="Cyberglyphics 2.0 Regular" size="24.0" />
+                    </font>
+                    <effect>
+                        <Glow level="0.08">
+                            <input>
+                                <InnerShadow />
+                            </input>
+                        </Glow>
+                    </effect>
+                </Button>
+                <Button contentDisplay="TOP" mnemonicParsing="false" onAction="#press1" prefHeight="50.0" prefWidth="50.0" style="-fx-background-color: gray;" text="1" textAlignment="JUSTIFY" textOverrun="WORD_ELLIPSIS">
+                    <font>
+                        <Font name="EA Font v1.5 by Ghettoshark" size="26.0" />
+                    </font>
+                    <effect>
+                        <Glow level="0.08">
+                            <input>
+                                <InnerShadow />
+                            </input>
+                        </Glow>
+                    </effect>
+                    <opaqueInsets>
+                        <Insets />
+                    </opaqueInsets>
+                </Button>
+                <Button contentDisplay="TOP" mnemonicParsing="false" onAction="#press2" prefHeight="50.0" prefWidth="50.0" style="-fx-background-color: gray;" text="2">
+                    <font>
+                        <Font name="EA Font v1.5 by Ghettoshark" size="26.0" />
+                    </font>
+                    <effect>
+                        <Glow level="0.08">
+                            <input>
+                                <InnerShadow />
+                            </input>
+                        </Glow>
+                    </effect>
+                </Button>
+                <Button mnemonicParsing="false" onAction="#press3" prefHeight="50.0" prefWidth="50.0" style="-fx-background-color: gray;" text="3">
+                    <effect>
+                        <Glow level="0.08">
+                            <input>
+                                <InnerShadow />
+                            </input>
+                        </Glow>
+                    </effect>
+                    <font>
+                        <Font name="EA Font v1.5 by Ghettoshark" size="26.0" />
+                    </font>
+                </Button>
+                <Button mnemonicParsing="false" onAction="#pressSubtract" prefHeight="50.0" prefWidth="50.0" style="-fx-background-color: gray;" text="-">
+                    <font>
+                        <Font name="Cyberglyphics 2.0 Regular" size="26.0" />
+                    </font>
+                    <effect>
+                        <Glow level="0.08">
+                            <input>
+                                <InnerShadow />
+                            </input>
+                        </Glow>
+                    </effect>
+                </Button>
+                <Button mnemonicParsing="false" onAction="#press4" prefHeight="50.0" prefWidth="50.0" style="-fx-background-color: gray;" text="4">
+                    <font>
+                        <Font name="EA Font v1.5 by Ghettoshark" size="26.0" />
+                    </font>
+                    <effect>
+                        <Glow level="0.08">
+                            <input>
+                                <InnerShadow />
+                            </input>
+                        </Glow>
+                    </effect>
+                </Button>
+                <Button mnemonicParsing="false" onAction="#press5" prefHeight="50.0" prefWidth="50.0" style="-fx-background-color: gray;" text="5">
+                    <effect>
+                        <Glow level="0.08">
+                            <input>
+                                <InnerShadow />
+                            </input>
+                        </Glow>
+                    </effect>
+                    <font>
+                        <Font name="EA Font v1.5 by Ghettoshark" size="26.0" />
+                    </font>
+                </Button>
+                <Button mnemonicParsing="false" onAction="#press6" prefHeight="50.0" prefWidth="50.0" style="-fx-background-color: gray;" text="6">
+                    <font>
+                        <Font name="EA Font v1.5 by Ghettoshark" size="26.0" />
+                    </font>
+                    <effect>
+                        <Glow level="0.08">
+                            <input>
+                                <InnerShadow />
+                            </input>
+                        </Glow>
+                    </effect>
+                </Button>
+                <Button mnemonicParsing="false" onAction="#pressProduct" prefHeight="50.0" prefWidth="50.0" style="-fx-background-color: gray;" text="×" textAlignment="JUSTIFY" textOverrun="CENTER_ELLIPSIS">
+                    <effect>
+                        <Glow level="0.08">
+                            <input>
+                                <InnerShadow />
+                            </input>
+                        </Glow>
+                    </effect>
+                    <font>
+                        <Font name="Cyberglyphics 2.0 Regular" size="20.0" />
+                    </font>
+                </Button>
+                <Button mnemonicParsing="false" onAction="#press7" prefHeight="50.0" prefWidth="50.0" style="-fx-background-color: gray;" text="7">
+                    <font>
+                        <Font name="EA Font v1.5 by Ghettoshark" size="26.0" />
+                    </font>
+                    <effect>
+                        <Glow level="0.08">
+                            <input>
+                                <InnerShadow />
+                            </input>
+                        </Glow>
+                    </effect>
+                </Button>
+                <Button mnemonicParsing="false" onAction="#press8" prefHeight="50.0" prefWidth="50.0" style="-fx-background-color: gray;" text="8">
+                    <effect>
+                        <Glow level="0.08">
+                            <input>
+                                <InnerShadow />
+                            </input>
+                        </Glow>
+                    </effect>
+                    <font>
+                        <Font name="EA Font v1.5 by Ghettoshark" size="26.0" />
+                    </font>
+                </Button>
+                <Button mnemonicParsing="false" onAction="#press9" prefHeight="50.0" prefWidth="50.0" style="-fx-background-color: gray;" text="9">
+                    <font>
+                        <Font name="EA Font v1.5 by Ghettoshark" size="26.0" />
+                    </font>
+                    <effect>
+                        <Glow level="0.08">
+                            <input>
+                                <InnerShadow />
+                            </input>
+                        </Glow>
+                    </effect>
+                </Button>
+                <Button mnemonicParsing="false" onAction="#pressDivide" prefHeight="50.0" prefWidth="50.0" style="-fx-background-color: gray;" text="÷">
+                    <font>
+                        <Font name="Cyberglyphics 2.0 Regular" size="24.0" />
+                    </font>
+                    <effect>
+                        <Glow level="0.08">
+                            <input>
+                                <InnerShadow />
+                            </input>
+                        </Glow>
+                    </effect>
+                </Button>
+                <Button mnemonicParsing="false" onAction="#press0" prefHeight="50.0" prefWidth="50.0" style="-fx-background-color: gray;" text="0">
+                    <effect>
+                        <Glow level="0.08">
+                            <input>
+                                <InnerShadow />
+                            </input>
+                        </Glow>
+                    </effect>
+                    <font>
+                        <Font name="EA Font v1.5 by Ghettoshark" size="26.0" />
+                    </font>
+                </Button>
+                <Button mnemonicParsing="false" onAction="#changeSign" prefHeight="50.0" prefWidth="50.0" style="-fx-background-color: gray;" text="±">
+                    <font>
+                        <Font name="Cyberglyphics 2.0 Regular" size="22.0" />
+                    </font>
+                    <effect>
+                        <Glow level="0.08">
+                            <input>
+                                <InnerShadow />
+                            </input>
+                        </Glow>
+                    </effect>
+                </Button>
+                <Button mnemonicParsing="false" onAction="#pressEqual" prefHeight="50.0" prefWidth="50.0" style="-fx-background-color: gray;" text="=">
+                    <effect>
+                        <Glow level="0.08">
+                            <input>
+                                <InnerShadow />
+                            </input>
+                        </Glow>
+                    </effect>
+                    <font>
+                        <Font size="23.0" />
+                    </font>
+                </Button>
+            </children>
+        </FlowPane>
+    </children>
+</AnchorPane>
